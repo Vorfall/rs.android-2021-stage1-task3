@@ -12,6 +12,7 @@ class SquareDecomposer {
         } else {
             recurs(koren + 1, number1)?.plus(number - 1)
         }
+
     }
 
     private fun recurs(number: Int, work: Long): Array<Int>? {
